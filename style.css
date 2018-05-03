@@ -1,0 +1,84 @@
+.container {
+ 
+    overflow: hidden;
+height: 100%;
+ background-color:none;
+transition: all .6s linear;
+}
+.box {
+
+    width: 100%;
+    background-color: #f9f9f9;
+    margin-top :150px;
+  height:100%;
+}
+ .h1 {
+  position:absolute;
+  top:170px;
+   margin: 10px 165px 0;
+   color:black;
+   font-size:20px;
+  
+}
+.btn {
+
+ 
+ 
+  background-color: #16a085;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 2px;
+  height:45px;
+  
+}
+.quote{
+  
+  margin-top:-5px;
+  font-size:28px;
+}
+.author {
+  
+  
+  font-size:25px;
+}
+
+.btn:hover {
+  background-color: #2e6da4;
+}
+
+.quote-contain {
+ 
+top:59px;
+  padding-right:20px;
+  background:grey;
+}
+
+/* i took these from css tricks*/
+.quote-contain {  
+  background-color: #f9f9f9;
+  
+  margin: 6em 8px 0 8px;
+  padding: 0.5em 10px;
+  top:10px;
+  quotes: '\201C''\201D''\2018''\2019';
+}
+quote-contain:before {  
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+.quote{
+  color:black;
+}
+
+.author {
+  color:black;
+}
+quote-contain p,  
+quote-contain span {  
+  padding: 0.938em 0;
+}
